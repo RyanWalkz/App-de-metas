@@ -1,14 +1,15 @@
-//arrays, objetos
-let metas = {
-    value:'ler um livro por mês',
-    checked:false,
-    isChecked:(info)=>{
-        console.log(info)
-    }
+//uma meta
+let meta={
+    value:'Ler um livro por mes',
+    checked:true,
 }
-metas.value='jogar play2'
-metas.isChecked(metas.value)
 
-//fuction //arrow function =>
-const criar_meta=()=>{}
-console.log('wello world')
+//mais de uma meta
+let metas=[
+    meta,
+    {
+        value:'zerar um jogo',
+        checked:false
+    }
+]
+console.log(metas[1].value)
