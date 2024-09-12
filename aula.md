@@ -45,3 +45,5 @@ const criar_meta=()=>{}
 # namad function
 function criar_meta() {}
 
+# modulos em Js
+baixando/exportando modulos

@@ -1,3 +1,4 @@
+const { select } = require('@inquirer/prompts')
 const start=()=>{
     while(true){
         let opcao='Cadastrar'
