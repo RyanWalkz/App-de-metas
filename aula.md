@@ -1,49 +1,84 @@
-# fases da resolução do problema
+## Linguagem de programação
+
+Maneira de dar instrução ao computador.
+Como um lego, você irá utilizar peças para criar algoritmos, ou seja, para resolver problemas.
+
+> 💡 **Algoritmo**: Sequência de passos lógica e finita para resolução de um problema.
+
+## Peças de uma linguagem
+
+- Comentários
+- Declaração de variáveis (const, let)
+- Operadores (atribuição, concatenação, matemáticos, lógicos )
+- Tipos de dados (string, number, boolean)
+- Estrutura de dados (functions, object, array)
+- Controle de fluxo (if/else)
+- Estrutura de repetição (for, while)
+
+# Fases da resolução de um problema
+
 Coletar os dados
-Processar os dados (manipular, alterar, etc...)
+Processar os dados (manipular, alterar ...)
 Apresentar os dados
 
-# String
-str - "" '' ´´
+## Escopo e variáveis:
 
-# Numeros
-number 1; 2.4
+- [x] Variáveis globais e locais
+- [x] Constantes
 
-# const
-// Hello world -print-
-# print
-console.log('wello world')
+## Tipos de dados:
 
-// const- nao pode ser mudada
-const mensagem = 'ola eu'
-{
-    const mensagem = 'ola mundo'
-    console.log(mensagem)
-}
-console.log(mensagem);
+- [x] Strings (texto): "" '' ``
+- [x] Numbers: 2 1.4
+- [x] Boolean: true, false
 
-# arrays
-//arrays, objetos
-let metas = ['mayk', 'alo']
-console.log(metas[0]+ ' ' + metas[1])
+# Operadores
 
+- [x] Operadores de atribuição de valor: =
+- [x] Operador de contatenação: +
+- [x] Operadores de comparação: == != <= >= < >
+- [x] Spread operator: ...
 
-//arrays, objetos
-let metas = {
-    value:'ler um livro por mês',
-    checked:false,
-    isChecked:(info)=>{
-        console.log(info)
-    }
-}
-metas.isChecked(metas.value)
+## Estruturas de dados:
 
-# arrow fuction
-//fuction //arrow function =>
-const criar_meta=()=>{}
+### Arrays: 
 
-# namad function
-function criar_meta() {}
+- [x] Uma lista que contém qualquer tipo de dado
+- [x] Métodos de array: push, [find, forEach, filter, map] : HOF (Higher Order Functions)
 
-# modulos em Js
-baixando/exportando modulos
+### Objetos:
+
+- [x] Atributos e métodos
+- [x] Criação e manipulação de objetos
+- [x] Acesso a propriedades de objetos
+
+### Functions
+
+- [x] criar, passar argumento
+- [x] excutar
+- [x] arrow function / named function
+
+# Estrutura de repetição
+
+- [x] while
+
+# Condicionais
+
+- [x] switch
+- [x] if/else
+
+## Módulos em Node.js:
+
+- [x] Importação de módulos (require, CommonJS)
+- [x] Biblioteca 'inquirer' para criar prompts interativos
+- [x] FS (file system)
+
+## JSON
+
+- [x] Javascript Object Notation (.json)
+- [x] JSON.parse(): transforma de JSON para JS
+- [x] JSON.stringify(): transforma de JS para JSON
+
+## Programação assíncrona e Promises:
+
+- [x] Uso de funções assíncronas (async/await)
